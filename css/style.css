@@ -6,19 +6,48 @@
 }
 
 body{
-    background: #07081A; 
+    background: darkkhaki; 
 }
 
-nav{
+.full_stak_conteiner{
     display: flex;
-    min-height: 64px;
-    background-color:  #07081A;
+    flex-direction: column;
 }
 
-.nav_list{
+.nav_box{
+    padding: 10px;
     display: flex;
     justify-content: center;
+}
+
+.nav_conteiner{
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+    background-color: aqua;
+}
+
+
+
+.nav_logo{
+display: flex;
+justify-content: flex-start;
+}
+
+
+
+ul{
+    display: flex;
+}
+
+
+.ul_class{
+    list-style: none;
+    display: flex;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
+    line-height: 24px;
 }
