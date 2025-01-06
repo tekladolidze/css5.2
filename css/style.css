@@ -5,47 +5,244 @@
     box-sizing: border-box;
 }
 
+
+
 body{
-    background: darkkhaki; 
+    background: #07081A;
 }
 
+
+
 .full_stak_conteiner{
+    gap: 64px;
     display: flex;
     flex-direction: column;
 }
+       
+
+
+/* header______________ conteiner*/
+
+
 
 .nav_box{
     padding: 10px;
     display: flex;
     justify-content: center;
+   
 }
+
+
 
 .nav_conteiner{
-    max-width: 1440px;
+    max-width: 1040px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 28px;
-    background-color: aqua;
+    border-bottom: 1px solid #261C51;
+
 }
 
 
 
-.nav_logo{
-display: flex;
-justify-content: flex-start;
+.logo_box{
+    display: flex;
+    font-size: 16px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
 }
+
+
+
+.nav_list:hover{
+    color: #8CE900; 
+}
+
 
 
 
 ul{
     display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
+
 
 
 .ul_class{
     list-style: none;
     display: flex;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}      
+
+
+
+/*  maiiiin________________conteiner*/
+
+
+
+.main_conteiner{
+    display: flex;
+    width: 1040px;
+    min-height: 320px;
+    justify-content: space-between;
+    margin-left: 250px;
+
+}
+
+
+#main_span{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+
+#main_foto{
+    width: 314px;
+    height: 320px;
+}
+
+
+
+.Project_competed_conteiner{
+    background-color: brown;
+    display: flex;
+    width: 1040px;
+    padding: 40px 72px;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 64px;
+    margin-left: 250px;
+    margin-bottom: 200px;
+    max-height: 170px;
+}
+
+
+
+
+.Project_competed{
+    color: #8CE900;
+    font-size: 56px;
+    
+    line-height: 60px;
+}
+
+
+
+.Project_competed_span{
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+
+.Project_competed_box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+/* footer_conteineeeeeer  */
+
+
+
+#footer_conteiner{
+    display: flex;
+    width: 1040px;
+    height: 184px;
+    align-items: center;
+    gap: 254px;
+    margin-left: 250px;
+    margin-bottom: 64px;
+}
+   
+
+
+
+#footer_text{
+    max-width: 264px;
+}
+
+
+
+#footer_p{
+    color: #C0C0C0;
+    padding-top: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+#footer_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    list-style: none;
+}
+
+
+
+.footer_list_style{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px
+}
+
+
+
+#list_title{
+    color: #8CE900;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+#footer_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+
+#info_title{
+    color: #8CE900;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+#footer_mail_p{
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
